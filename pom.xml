@@ -215,21 +215,7 @@
           <check />
         </configuration>
       </plugin>
-        <build>
-<plugins>
-
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.5.2</version>
-        <configuration>
-            <failOnMissingWebXml>false</failOnMissingWebXml>
-        </configuration>
-    </plugin>
-
-</plugins>
-  </build>
-    </plugins>
+      </plugins>
   </reporting>
 
   <!-- Apache 2 license -->
